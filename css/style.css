@@ -1,0 +1,1211 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.parte1{
+    background-image: url('../img/pexels-guihankenne-1986374\ 1.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parte2{
+    padding-top: 220px;
+}
+
+h3{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.parte1 h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 20px;
+    width: 65%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.interacao1{
+    display: flex;
+    flex-direction: column;
+}
+
+.interacao1 label{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+    width: 52%;
+}
+
+.interacao1 input{
+    width: 1025px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+}
+
+button{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 170px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(83, 88, 94);
+}
+
+.dados{
+    margin-top: 80px;
+    background-color: #001A27;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dados h2{
+    color: white;
+    margin-top: 10px;
+}
+
+.dados p{
+    color: white;
+    margin-top: 20px;
+}
+
+.avaliacao{
+    font-size: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+
+.interacao2 label{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 15px;
+}
+
+.interacao2 input{
+    width: 1025px;
+    height: 30px;
+    margin: 0 auto;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.esteja-ciente{
+    background-color: #001A27;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.esteja-ciente h2{
+    color: white;
+    margin-top: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.card img{
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.card p{
+    font-size: 23px;
+}
+
+.pesca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.residuos{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.residuos img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.plastico{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.plastico img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.quiz-ajuda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card-quiz{
+    background-color: #001A27;
+    color: white;
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.card-quiz h4{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.card-quiz p{
+    color: white;
+    font-size: 20px;
+    width: 550px;
+    margin-top: 15px;
+}
+
+.card-ajuda{
+    background-color: #001A27;
+    color: white;
+    width: 600px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.card-ajuda h4{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+.card-ajuda p{
+    color: white;
+    font-size: 20px;
+    width: 550px;
+    margin-top: 15px;
+}
+
+
+.diversidades button{
+        width: 170px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-color: white;
+        color:  #001A27;
+        border: none;
+        border-radius: 5px;
+}
+
+.diversidades button:hover{
+    background-color: #6B6B6B;
+    color: white;
+}
+
+.hidden { 
+    display: none; 
+}
+
+.exibir-formulario{
+    background-color: #001A27;
+}
+
+footer{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media (max-width: 576px){
+    
+    .parte1{
+        height: 300px;
+    }
+
+    .parte2{
+        font-size: 5px;
+        padding-top: 60px;
+    }
+
+    
+    .cabecalho a{
+        font-size: 8px;
+    }
+
+    .cabecalho ul{
+        margin-top: 10px;
+        gap: 5px    ;
+    }
+
+    h3{
+        margin-top: 0px;
+    }
+
+    .parte2 h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .interacao1 label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .interacao1 input{
+        width: 300px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .dados{
+        height: 400px;
+    }
+
+    .dados h2{
+        font-size: 25px;
+    }
+
+    .avaliacao{
+        font-size: 20px;
+    }
+    
+    .interacao2 label{
+        font-size: 12px;
+    }
+
+    .interacao2 input{
+        width: 300px;
+    }
+
+    .esteja-ciente{
+        height: 750px;
+    }
+
+    .esteja-ciente p{
+        font-size: 8px;
+    }
+
+    .esteja-ciente img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card{
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .card img{
+        margin-left: 10px;
+    }
+
+    .pesca{
+        margin-bottom: 10px;
+    }
+
+    .pesca p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos img{
+        margin-right: 5px;
+    }
+
+    .plastico{
+        margin-top: 10px;
+    }
+
+    .plastico p{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .plastico img{
+        margin-right: 5px;
+    }
+
+    .quiz-ajuda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-quiz{
+        width: 300px;
+        height: 250px;
+    }
+
+    .card-quiz h4{
+        font-size: 20px;
+    }
+
+    .card-quiz p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .card-ajuda{
+        width: 300px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-ajuda h4{
+        font-size: 20px;
+    }
+
+    .card-ajuda p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 577px) and (max-width: 700px){
+    
+    .parte1{
+        height: 400px;
+    }
+
+    .parte2{
+        font-size: 5px;
+        padding-top: 80px;
+    }
+
+    
+    .cabecalho a{
+        font-size: 10px;
+    }
+
+    .cabecalho ul{
+        margin-top: 0px;
+    }
+
+    h3{
+        margin-top: 0px;
+    }
+
+    .parte2 h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .interacao1 label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .interacao1 input{
+        width: 300px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .dados{
+        height: 400px;
+    }
+
+    .dados h2{
+        font-size: 25px;
+    }
+
+    .avaliacao{
+        font-size: 20px;
+    }
+    
+    .interacao2 label{
+        font-size: 12px;
+    }
+
+    .interacao2 input{
+        width: 300px;
+    }
+
+    .esteja-ciente{
+        height: 750px;
+    }
+
+    .esteja-ciente p{
+        font-size: 10px;
+    }
+
+    .esteja-ciente img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card{
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .card img{
+        margin-left: 10px;
+    }
+
+    .pesca{
+        margin-bottom: 10px;
+    }
+
+    .pesca p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos img{
+        margin-right: 5px;
+    }
+
+    .plastico{
+        margin-top: 10px;
+    }
+
+    .plastico p{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .plastico img{
+        margin-right: 5px;
+    }
+
+    .quiz-ajuda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-quiz{
+        width: 300px;
+        height: 250px;
+    }
+
+    .card-quiz h4{
+        font-size: 20px;
+    }
+
+    .card-quiz p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .card-ajuda{
+        width: 300px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-ajuda h4{
+        font-size: 20px;
+    }
+
+    .card-ajuda p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+}
+
+@media (min-width: 701px) and (max-width: 900px){
+    
+    .parte1{
+        height: 500px;
+    }
+
+    .parte2{
+        font-size: 5px;
+        padding-top: 100px;
+    }
+
+    
+    .cabecalho a{
+        font-size: 13px;
+    }
+
+    .cabecalho ul{
+        margin-top: 0px;
+    }
+
+    h3{
+        margin-top: 0px;
+    }
+
+    .parte2 h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .interacao1 label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .interacao1 input{
+        width: 300px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .dados{
+        height: 400px;
+    }
+
+    .dados h2{
+        font-size: 25px;
+    }
+
+    .avaliacao{
+        font-size: 20px;
+    }
+    
+    .interacao2 label{
+        font-size: 12px;
+    }
+
+    .interacao2 input{
+        width: 300px;
+    }
+
+    .esteja-ciente{
+        height: 750px;
+    }
+
+    .esteja-ciente p{
+        font-size: 12px;
+    }
+
+    .esteja-ciente img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card{
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .card img{
+        margin-left: 10px;
+    }
+
+    .pesca{
+        margin-bottom: 10px;
+    }
+
+    .pesca p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos img{
+        margin-right: 5px;
+    }
+
+    .plastico{
+        margin-top: 10px;
+    }
+
+    .plastico p{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .plastico img{
+        margin-right: 5px;
+    }
+
+    .quiz-ajuda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-quiz{
+        width: 300px;
+        height: 250px;
+    }
+
+    .card-quiz h4{
+        font-size: 20px;
+    }
+
+    .card-quiz p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .card-ajuda{
+        width: 300px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-ajuda h4{
+        font-size: 20px;
+    }
+
+    .card-ajuda p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+}
+
+
+
+
+@media (min-width: 901px) and (max-width: 1100px){
+    
+    .parte1{
+        height: 600px;
+    }
+
+    .parte2{
+        font-size: 5px;
+        padding-top: 130px;
+    }
+
+    
+    .cabecalho a{
+        font-size: 14px;
+    }
+
+    .cabecalho ul{
+        margin-top: 0px;
+    }
+
+    h3{
+        margin-top: 0px;
+    }
+
+    .parte2 h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .interacao1 label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .interacao1 input{
+        width: 300px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .dados{
+        height: 400px;
+    }
+
+    .dados h2{
+        font-size: 25px;
+    }
+
+    .avaliacao{
+        font-size: 20px;
+    }
+    
+    .interacao2 label{
+        font-size: 12px;
+    }
+
+    .interacao2 input{
+        width: 300px;
+    }
+
+    .esteja-ciente{
+        height: 750px;
+    }
+
+    .esteja-ciente p{
+        font-size: 15px;
+    }
+
+    .esteja-ciente img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card{
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .card img{
+        margin-left: 10px;
+    }
+
+    .pesca{
+        margin-bottom: 10px;
+    }
+
+    .pesca p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos img{
+        margin-right: 5px;
+    }
+
+    .plastico{
+        margin-top: 10px;
+    }
+
+    .plastico p{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .plastico img{
+        margin-right: 5px;
+    }
+
+    .quiz-ajuda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-quiz{
+        width: 300px;
+        height: 250px;
+    }
+
+    .card-quiz h4{
+        font-size: 20px;
+    }
+
+    .card-quiz p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .card-ajuda{
+        width: 300px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-ajuda h4{
+        font-size: 20px;
+    }
+
+    .card-ajuda p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+}
+
+
+
+@media (min-width: 1101px) and (max-width: 1399px){
+    
+    .parte1{
+        height: 700px;
+    }
+
+    .parte2{
+        font-size: 5px;
+        padding-top: 180px;
+    }
+
+    
+    .cabecalho a{
+        font-size: 16px;
+    }
+
+    .cabecalho ul{
+        margin-top: 10px;
+    }
+
+    h3{
+        margin-top: 10px;
+    }
+
+    .parte2 h1{
+        font-size: 50px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .interacao1 label{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .interacao1 input{
+        width: 300px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    .dados{
+        height: 400px;
+    }
+
+    .dados h2{
+        font-size: 25px;
+    }
+
+    .avaliacao{
+        font-size: 20px;
+    }
+    
+    .interacao2 label{
+        font-size: 12px;
+    }
+
+    .interacao2 input{
+        width: 300px;
+    }
+
+    .esteja-ciente{
+        height: 750px;
+    }
+
+    .esteja-ciente p{
+        font-size: 15px;
+    }
+
+    .esteja-ciente img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card{
+        width: 90%;
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .card img{
+        margin-left: 10px;
+    }
+
+    .pesca{
+        margin-bottom: 10px;
+    }
+
+    .pesca p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos p{
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .residuos img{
+        margin-right: 5px;
+    }
+
+    .plastico{
+        margin-top: 10px;
+    }
+
+    .plastico p{
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .plastico img{
+        margin-right: 5px;
+    }
+
+    .quiz-ajuda{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-quiz{
+        width: 300px;
+        height: 250px;
+    }
+
+    .card-quiz h4{
+        font-size: 20px;
+    }
+
+    .card-quiz p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .card-ajuda{
+        width: 300px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .card-ajuda h4{
+        font-size: 20px;
+    }
+
+    .card-ajuda p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        margin: 0 auto;
+        height: 200px;
+    }
+
+}
