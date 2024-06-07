@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Ocean Company - Quiz</title>
+</head>
+<body>
+        <div class="parte">
+            <div class="parte1">
+                <header>
+                    <nav class="cabecalho">
+                        <h3><a href="index.html">Ocean Company</a></h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="ajudar.html">Como Ajudar</a></li>
+                            <li><a href="chatbot.html">Chatbot</a></li>
+                            <li><a href="integrantes.html">Integrantes</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="parte2">
+                    <h1>Seja bem-vindo ao nosso Quiz!</h1>
+                </div>
+            </div>
+        </div>  
+        <main>
+            <section>
+            <article class="pergunta1">
+                <h2>Pergunta 1</h2>
+                <p>Qual é a principal causa da poluição marinha?</p>
+                <button class="btn-pergunta-1" onclick="selectAnswer(1)">Derramamento de petróleo</button>
+                <button class="btn-pergunta-2" onclick="selectAnswer(2)">Descarte de resíduos plásticos</button>
+                <button class="btn-pergunta-3" onclick="selectAnswer(3)">Despejo de resíduos industriais</button>
+                <button class="btn-pergunta-4" onclick="selectAnswer(4)">Atividades pesqueiras</button>
+            </article>
+            <article class="pergunta2">
+                <h2>Pergunta 2</h2>
+                <p>Quantos por cento das populações de peixes no mundo estão sendo pescadas em níveis insustentáveis?</p>
+                <button class="btn-pregunta-5" onclick="selectAnswer(5)">20%</button>
+                <button class="btn-pregunta-6" onclick="selectAnswer(6)">34%</button>
+                <button class="btn-pregunta-7" onclick="selectAnswer(7)">45%</button>
+                <button class="btn-pregunta-8" onclick="selectAnswer(8)">50%</button>
+            </article>
+            <article class="pergunta3">
+                <h2>Pergunta 3</h2>
+                <p>Qual é o impacto dos microplásticos nos oceanos?</p>
+                <button class="btn-pregunta-9" onclick="selectAnswer(9)">Melhoram a qualidade da água</button>
+                <button class="btn-pregunta-10" onclick="selectAnswer(10)">São facilmente biodegradáveis</button>
+                <button class="btn-pregunta-11" onclick="selectAnswer(11)">Contaminam a cadeia alimentar marinha</button>
+                <button class="btn-pregunta-12" onclick="selectAnswer(12)">Aumentam a biodiversidade marinha</button>
+            </article>
+            <div class="pergunta4">
+                <h2>Pergunta 4</h2>
+                <p>Qual é uma das medidas mais eficazes para proteger os ecossistemas marinhos?</p>
+                <button class="btn-pregunta-13" onclick="selectAnswer(13)">Construir mais navios pesqueiros</button>
+                <button class="btn-pregunta-14" onclick="selectAnswer(14)">Reduzir o uso de plásticos descartáveis</button>
+                <button class="btn-pregunta-15" onclick="selectAnswer(15)">Aumentar a exploração de petróleo no oceano</button>
+                <button class="btn-pregunta-16" onclick="selectAnswer(16)">Promover o turismo em áreas de recifes de coral</button>
+            </article>
+            <article class="pergunta5">
+                <h2>Pergunta 5</h2>
+                <p>Qual é uma das principais causas da acidificação dos oceanos?</p>
+                <button class="btn-pregunta-17" onclick="selectAnswer(17)">Aumento da temperatura da água</button>
+                <button class="btn-pregunta-18" onclick="selectAnswer(18)">Emissão de dióxido de carbono (CO₂)</button>
+                <button class="btn-pregunta-19" onclick="selectAnswer(19)">Despejo de resíduos nucleares</button>
+                <button class="btn-pregunta-20" onclick="selectAnswer(20)">Derramamento de óleo</button>
+            </article>
+        </section>
+        </main>
+        <footer>
+            <div class="rodape">
+                <h2><a href="index.html">Ocean Company</a></h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="ajudar.html">Como Ajudar</a></li>
+                    <li><a href="chatbot.html">Chatbot</a></li>
+                    <li><a href="integrantes.html">Integrantes</a></li>
+                </ul>
+            </div>
+        </footer>
+        <script src="./js/quiz.js"></script>
+</body>
+</html>

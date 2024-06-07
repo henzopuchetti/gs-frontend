@@ -1,0 +1,392 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.parte1{
+    background-image: url('../img/quiz-img.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parte2{
+    padding-top: 220px;
+}
+
+h3{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.parte1 h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* perguntas */
+.pergunta1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pergunta1 h2{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.pergunta1 p{
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 20px;
+}
+
+.pergunta2 h2{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.pergunta2 p{
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 16px;
+}
+
+.pergunta3 h2{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.pergunta3 p{
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 20px;
+}
+
+.pergunta4 h2{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.pergunta4 p{
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 20px;
+}
+
+.pergunta5 h2{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.pergunta5 p{
+    margin-top: 15px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #6B6B6B;
+    font-size: 20px;
+}
+
+button{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 800px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #001A27;
+    color: white;
+}
+
+button:hover{
+    background-color: #6B6B6B;
+}
+
+footer{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}   
+
+h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+
+.green {
+    background-color: green !important;
+}
+
+@media (max-width:480px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte1{
+        height: 300px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .parte2 h1{
+        font-size: 20px;
+    }
+
+    .cabecalho a{
+        font-size: 8px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .cabecalho li{
+        margin-top: 10px;
+    }
+
+    .pergunta1{
+        margin-top: 10px;
+    }
+
+    button{
+        width: 300px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+}
+
+
+@media (min-width:481px) and (max-width:700px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte1{
+        height: 400px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 110px;
+    }
+
+    .parte2 h1{
+        font-size: 30px;
+    }
+
+    .cabecalho a{
+        font-size: 10px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .pergunta1{
+        margin-top: 10px;
+    }
+
+    button{
+        width: 300px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+}
+
+@media (min-width:701px) and (max-width:1000px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .parte1{
+        height: 500px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 140px;
+    }
+
+    .parte2 h1{
+        font-size: 40px;
+    }
+
+    .cabecalho a{
+        font-size: 15px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .pergunta1{
+        margin-top: 10px;
+    }
+
+    button{
+        width: 500px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1001px){
+    .parte1{
+        height: 700px;
+    }
+}
