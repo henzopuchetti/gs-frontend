@@ -1,0 +1,336 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #001A27;
+}
+
+.parte1{
+    background-image: url('../img/image\ 4.png');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.parte2{
+    padding-top: 220px;
+}
+
+h3{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    background-color: transparent;
+    color: white;
+}
+
+.cabecalho ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.parte1 h1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.card h4{
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.card p{
+    margin-left: 15px;
+    font-size: 25px;
+    color: white;
+    width: 800px;
+    text-align: justify;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+footer{
+    margin-top: 80px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: white;
+}
+
+h2{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+@media (max-width: 400px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .parte1{
+        height: 300px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 80px;
+    }
+
+    .parte2 h1{
+        font-size: 20px;
+    }
+
+    .cabecalho a{
+        font-size: 8px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .card h4{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .card img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .card p{
+        font-size: 10px;
+        width: 200px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 401px) and (max-width:700px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .parte1{
+        height: 400px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 120px;
+    }
+
+    .parte2 h1{
+        font-size: 25px;
+    }
+
+    .cabecalho a{
+        font-size: 10px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .card h4{
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .card img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .card p{
+        font-size: 12px;
+        width: 230px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 701px) and (max-width:1000px){
+    .parte{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .parte1{
+        height: 550px;
+    }
+
+    .parte2{
+        display: flex;
+        align-items: center;
+        padding-top: 160px;
+    }
+
+    .parte2 h1{
+        font-size: 40px;
+    }
+
+    .cabecalho a{
+        font-size: 15px;
+    }
+    .cabecalho ul{
+        gap: 10px;
+    }
+
+    .card h4{
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .card img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card p{
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .rodape{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px){
+    .card h4{
+        font-size: 40px;
+        margin-top: 0;
+    }
+    
+    .card img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .card p{
+        font-size: 25px;
+        width: 500px;
+    }
+}
